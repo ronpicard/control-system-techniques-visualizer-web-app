@@ -41,8 +41,8 @@ canvas{display:block;border-radius:12px;background:#111128;border:1px solid #2a2
 .pb.pr{color:#ffb04a;border-color:#ffb04a}.pb.pr:hover{background:#ffb04a;color:#0d0d1a}
 .kfb{padding:6px 14px;font-size:12px;border:1.5px solid;border-radius:20px;cursor:pointer;background:transparent;font-weight:600}
 </style>
-<h1>Interactive Control Systems: The Inverted Pendulum</h1>
-<p class="sub">Learn how controllers keep an unstable system balanced</p>
+<h1>Control System Techniques Visualizer</h1>
+<p class="sub">Learn how various control methods keep an unstable inverted pendulum system balanced.</p>
 <div style="display:flex;justify-content:center;gap:clamp(8px,2vw,16px);flex-wrap:wrap;margin-bottom:8px;font-size:clamp(10px,1.3vw,12px);color:#7070aa"><span>Cart: <strong style="color:#b47eff">2 kg</strong></span><span>Pendulum: <strong style="color:#ff79c6">1 kg</strong></span><span>Rod: <strong style="color:#7eb8ff">1.5 m</strong></span><span>Gravity: <strong style="color:#34d399">9.81 m/s²</strong></span></div>
 <div style="display:flex;justify-content:center;margin-bottom:12px"><div class="sg" style="background:#161630;padding:6px 14px;border-radius:10px"><label style="font-size:12px;color:#7070aa">Friction</label><input type="range" min="0" max="3" value="1.5" step="0.1" id="fric" style="width:120px" oninput="document.getElementById('fv').textContent=parseFloat(this.value).toFixed(1)"><span class="vl" id="fv">1.5</span><span style="font-size:10px;color:#5a5a8a;margin-left:2px">Ns/m</span></div></div>
 <div class="btn-row">
